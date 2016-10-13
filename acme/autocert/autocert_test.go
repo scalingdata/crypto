@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/crypto/acme"
+	"github.com/scalingdata/go-x-crypto/acme"
 	"golang.org/x/net/context"
 )
 

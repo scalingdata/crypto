@@ -15,14 +15,14 @@ negligible risk of collision.
 
 This package is interoperable with NaCl: https://nacl.cr.yp.to/box.html.
 */
-package box // import "golang.org/x/crypto/nacl/box"
+package box // import "github.com/scalingdata/go-x-crypto/nacl/box"
 
 import (
 	"io"
 
-	"golang.org/x/crypto/curve25519"
-	"golang.org/x/crypto/nacl/secretbox"
-	"golang.org/x/crypto/salsa20/salsa"
+	"github.com/scalingdata/go-x-crypto/curve25519"
+	"github.com/scalingdata/go-x-crypto/nacl/secretbox"
+	"github.com/scalingdata/go-x-crypto/salsa20/salsa"
 )
 
 // Overhead is the number of bytes of overhead when boxing a message.
