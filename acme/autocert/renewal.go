@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/context"
+	"github.com/scalingdata/go-x-net/context"
 )
 
 // maxRandRenew is a maximum deviation from Manager.RenewBefore.

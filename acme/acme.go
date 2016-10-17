@@ -37,8 +37,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/context"
-	"golang.org/x/net/context/ctxhttp"
+	"github.com/scalingdata/go-x-net/context"
+	"github.com/scalingdata/go-x-net/context/ctxhttp"
 )
 
 // LetsEncryptURL is the Directory endpoint of Let's Encrypt CA.

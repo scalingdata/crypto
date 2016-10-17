@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
+	"github.com/scalingdata/go-x-net/context"
 )
 
 // Decodes a JWS-encoded request and unmarshals the decoded JSON into a provided

@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/net/context"
+	"github.com/scalingdata/go-x-net/context"
 )
 
 // make sure DirCache satisfies Cache interface

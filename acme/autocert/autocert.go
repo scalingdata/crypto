@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/scalingdata/go-x-crypto/acme"
-	"golang.org/x/net/context"
+	"github.com/scalingdata/go-x-net/context"
 )
 
 // pseudoRand is safe for concurrent use.

@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/net/context"
+	"github.com/scalingdata/go-x-net/context"
 )
 
 // ErrCacheMiss is returned when a certificate is not found in cache.

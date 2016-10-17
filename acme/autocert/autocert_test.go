@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/scalingdata/go-x-crypto/acme"
-	"golang.org/x/net/context"
+	"github.com/scalingdata/go-x-net/context"
 )
 
 var discoTmpl = template.Must(template.New("disco").Parse(`{
